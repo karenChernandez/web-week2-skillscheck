@@ -1,0 +1,73 @@
+body{
+height: 100vh;
+width: 100vw;
+
+}
+header{
+    height: 10%;
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.logo{
+font-size: 40px;
+color: whitesmoke;
+}
+.space-around{
+display: flex;
+justify-content: space-around;
+margin-top: 50px;
+}
+.menuOptions{
+width: 250px;
+font-size: 20px;
+color: whitesmoke;
+}
+.titleBox{
+background-color: black;
+height: 300px;
+color: whitesmoke;
+font-size: 50px;
+align-items: center;
+}
+/* .body{
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+} */
+.greenbox{
+width: 300px ;
+height: 350px;
+background-color: turquoise;
+border-radius: 10%;
+border-radius: 10%;
+}
+.orangeBox{
+    background-color: orange;
+    height: 350px;
+    width: 600px;
+}
+.bodySect3{
+    display: flex;
+    justify-content: space-around;
+    height: 30vh;
+    padding-left: 130px;
+    padding-right: 130px;
+    
+}
+.bodyImg{
+    height: 90%;
+    width: 30%;
+}
+.textBox{
+    height: 90%;
+    width: 60%;
+    font-size: 20px;
+    align-content: center;
+}
+.footer{
+    background-color: purple;
+    height: 20;
+    width: 40wv;
+}
