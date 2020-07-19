@@ -4,11 +4,12 @@ width: 100vw;
 
 }
 header{
-    height: 10%;
+    height: 40px;
     background-color: gray;
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    
 }
 .logo{
 font-size: 40px;
@@ -18,11 +19,15 @@ color: whitesmoke;
 display: flex;
 justify-content: space-around;
 margin-top: 50px;
+
 }
+
 .menuOptions{
 width: 250px;
 font-size: 20px;
 color: whitesmoke;
+display: flex;
+justify-content: space-around;
 }
 .titleBox{
 background-color: black;
@@ -30,12 +35,10 @@ height: 300px;
 color: whitesmoke;
 font-size: 50px;
 align-items: center;
+justify-content: center;
+display: flex;
 }
-/* .body{
-    display: flex;
-    flex-direction: column;
-    height: 800px;
-} */
+
 .greenbox{
 width: 300px ;
 height: 350px;
@@ -52,8 +55,8 @@ border-radius: 10%;
     display: flex;
     justify-content: space-around;
     height: 30vh;
-    padding-left: 130px;
-    padding-right: 130px;
+    padding-left: 80px;
+    padding-right: 80px;
     
 }
 .bodyImg{
@@ -62,12 +65,12 @@ border-radius: 10%;
 }
 .textBox{
     height: 90%;
-    width: 60%;
+    width: 35%;
     font-size: 20px;
     align-content: center;
 }
 .footer{
     background-color: purple;
-    height: 20;
-    width: 40wv;
+    height: 160px;
+    width: 100%;
 }
